@@ -1,0 +1,91 @@
+.cadre{
+    width: 1500px;
+    display: flex;
+    height: 720px; 
+    background-image: linear-gradient(to bottom right, pink, beige);
+    background-repeat: no-repeat;
+    animation-name: mm;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+   
+    
+}
+@keyframes mm {
+    0%{
+        background-image: linear-gradient(to bottom right, pink, beige);
+    }
+    15%{
+        background-image: linear-gradient(to bottom right, rgb(233, 178, 187), rgb(238, 238, 207));
+
+    }
+    25%{
+        background-image: linear-gradient(to bottom right, rgb(240, 170, 182), rgb(236, 236, 197));
+    }
+    50%{
+        background-image: linear-gradient(to bottom right, rgb(240, 155, 169), rgb(226, 226, 174));
+    }
+    75%{
+        background-image: linear-gradient(to bottom right, rgb(240, 170, 182), rgb(236, 236, 197));
+    }
+    85%{
+        background-image: linear-gradient(to bottom right, rgb(233, 178, 187), rgb(238, 238, 207));
+    }
+    100%{
+        background-image: linear-gradient(to bottom right, pink, beige);
+    }
+}
+img{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 700px;
+    height: 700px;
+}
+.titre{
+    margin-top: 100px;
+    padding: 50px; 
+    font-size: 60px;
+    text-shadow:2px 2px 4px gray;
+    font-family: serif;
+    color: white;
+    
+}
+header {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 30px; 
+    margin-top: 20px; 
+    font-size: 20px;
+}
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.aa {
+    text-decoration: none;
+    color: white; 
+}
+
+.aa:hover {
+    text-decoration: underline;
+    color: #e6b87b; 
+}
+ button {
+     margin-left: 50px;
+     margin-top: 100px;
+    background-color: #ff6600ef; 
+    border: none;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 17px;
+}
+button a {
+    text-decoration: none;
+    color: white;
+}
+button:hover {
+    background-color: #ad4703;
+}
